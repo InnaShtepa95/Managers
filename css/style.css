@@ -15,11 +15,11 @@ body{
 
 .manager {
     max-width: 310px;
-    margin-right: 63px;
+    margin-right: 88px;
     float: left;
 }
-.manager:last-child{
-    padding-right: 0;
+.manager:nth-child(3){
+    margin-right: 0;
 }
 .photo img {
     width: 100%;

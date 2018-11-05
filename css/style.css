@@ -1,0 +1,57 @@
+.container{
+    max-width: 1120px;
+    margin: auto;
+}
+
+.manager{
+    max-width: 310px;
+}
+
+.photo img{
+    width: 100%;
+
+}
+.info{
+    padding-left: 11px;
+    float: left;
+    margin-top: 33px;
+}
+.info h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: solid 1px green;
+    font-size: 16px;
+    line-height: 22px;
+    color: #232323;
+    text-transform: uppercase;
+
+}
+.info p{
+    margin: 0;
+    font-size: 14px;
+    color: #b5a263;
+    border: solid 1px green;
+}
+
+/*****************************/
+.social_icons{
+    margin-top: 33px ;
+   padding-top: 3px;
+    float: right;
+    text-align: center;
+}
+.social_icons a{
+
+    margin-right: 8px;
+    padding: 0;
+    width: 36px;
+    display: inline-block;
+    background-color: #dedede;
+    border-radius: 20px;
+}
+
+.social_icons a i{
+    font-size: 16px;
+    color: white;
+    line-height: 36px;
+}

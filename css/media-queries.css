@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1024px) {
+    .manager{
+       margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .manager:nth-child(1){
+        margin-left: 150px;
+
+    }
+    .manager:nth-child(2){
+        float: right;
+        margin-right: 150px;
+    }
+    .manager:nth-child(3){
+        margin-top: 15px;
+        margin-left: 310px;
+    }
+    .manager:after{
+        content:"" ;
+        clear:both;
+        display: block;
+    }
+}
+*@media only screen and (min-width: 667px) and (max-width: 767px) {
+
+   .manager{
+       float: left;
+       margin-left: 100px;
+
+   }
+
+    .manager:after{
+        content:"" ;
+        clear:both;
+        display: block;
+    }
+}

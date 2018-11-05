@@ -1,3 +1,21 @@
+@font-face {
+    font-family: '11849';
+    src: url('../fonts/11849.eot');
+    src: url('../fonts/11849.eot') format('embedded-opentype'),
+    url('../fonts/11849.woff2') format('woff2'),
+    url('../fonts/11849.woff') format('woff'),
+    url('../fonts/11849.ttf') format('truetype'),
+    url('../fonts/11849.svg#11849') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../fonts/OpenSansLight.eot');
+    src: url('../fonts/OpenSansLight.eot') format('embedded-opentype'),
+    url('../fonts/OpenSansLight.woff2') format('woff2'),
+    url('../fonts/OpenSansLight.woff') format('woff'),
+    url('../fonts/OpenSansLight.ttf') format('truetype'),
+    url('../fonts/OpenSansLight.svg#OpenSansLight') format('svg');
+}
 
 * {
    margin: 0;
@@ -21,6 +39,11 @@ body{
 .manager:nth-child(3){
     margin-right: 0;
 }
+.manager:after{
+    content:"" ;
+    clear:both;
+    display: block;
+}
 .photo img {
     width: 100%;
 
@@ -30,12 +53,13 @@ body{
     padding-left: 11px;
     float: left;
     margin-top: 33px;
+    max-width: 180px;
 }
 
 .info h3 {
+    font-family: '11849';
     margin-top: 0px;
     margin-bottom: 10px;
-    border: solid 1px green;
     font-size: 16px;
     line-height: 22px;
     color: #232323;
@@ -44,10 +68,11 @@ body{
 }
 
 .info p {
+    font-family: 'OpenSansLight';
     margin: 0;
     font-size: 14px;
     color: #b5a263;
-    border: solid 1px green;
+   
 }
 
 /*****************************/

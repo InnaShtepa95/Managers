@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px) {
+/*@media only screen and (max-width: 1024px) {
     .manager{
        margin-right: 15px;
     }
@@ -26,8 +26,9 @@
 *@media only screen and (min-width: 667px) and (max-width: 767px) {
 
    .manager{
-       float: left;
-       margin-left: 100px;
+       margin-right: 100px;
+
+      margin-left: 150px;
 
    }
 
@@ -36,4 +37,47 @@
         clear:both;
         display: block;
     }
+}*/
+
+
+@media only screen and (max-width: 1024px) {
+    .manager{
+        margin-right: 15px;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 375px){
+    .container{
+        max-width: 400px;
+
+    }
+    .manager{
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px){
+
+   .container{
+       max-width: 300px;
+       padding-right: 15px;
+   }
+    .manager{
+        padding-bottom: 20px;
+
+
+    }
+    .info{
+        margin-top: 15px;
+        width: 100%;
+
+    }
+    .social_icons
+    {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .manager:nth-child(3) {
+       margin-right: 15px;
+    }
+
 }
